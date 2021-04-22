@@ -1,0 +1,9 @@
+name: btcbackend
+
+environment:
+    sdk: ">=2.7.0 <3.0.0"
+dependencies:
+    angel_framework: ^2.0.0
+    bitcoin_flutter: ^2.0.2
+    bip39: ^1.0.3
+    angel_cors: ^2.0.0
