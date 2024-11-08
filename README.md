@@ -30,37 +30,37 @@ Installation
 
 Clone the frontend repository:
 
-git clone https://github.com/TOMSLAUS/paper_wallet_generator.git
-cd paper_wallet_generator
+    git clone https://github.com/TOMSLAUS/paper_wallet_generator.git
+    cd paper_wallet_generator
 
 Then clone the backend:
 
-git clone https://github.com/TOMSLAUS/BTC_Backend.git
-cd BTC_Backend
+    git clone https://github.com/TOMSLAUS/BTC_Backend.git
+    cd BTC_Backend
 
 2. Install Dependencies
 
 For the Flutter frontend:
 
-flutter pub get
+    flutter pub get
 
 For the backend, navigate to the backend directory and install dependencies:
 
-cd BTC_Backend
-dart pub get
+    cd BTC_Backend
+    dart pub get
 
 3. Run the Backend Service
 
 In the backend directory, start the Angel server:
 
-angel serve
+    angel serve
 
 Ensure the backend service is running locally or on a server accessible to the Flutter app.
 4. Run the Flutter App
 
 Return to the frontend directory and run the app on your preferred emulator or device:
 
-flutter run
+    flutter run
 
 🎉 Usage
 
