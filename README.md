@@ -1,31 +1,34 @@
-Paper BTC Wallet Generator
+🪙 Paper BTC Wallet Generator
 
-Paper BTC Wallet Generator is a Flutter-based application that allows users to generate secure Bitcoin paper wallets with customizable, attractive designs. This project includes a backend service, built with the Dart Angel framework, to securely handle Bitcoin key generation and management. This app is perfect for secure cold storage, Bitcoin gifting, or introducing friends and family to cryptocurrency in a tangible way.
-Features
+Paper BTC Wallet Generator is a Flutter-based application that enables users to create secure, attractive Bitcoin paper wallets. The app includes a secure backend service built with the Dart Angel framework, making it ideal for cold storage, Bitcoin gifting, or introducing friends and family to cryptocurrency in a tangible way.
+✨ Features
 
     Generate Bitcoin Wallets – Create Bitcoin addresses and private keys in a secure environment.
-    Stylish Paper Templates – Customize your wallet design with beautiful paper wallet templates.
-    Dart Angel Backend – Secure server-side wallet generation using the Angel framework.
-    Easy Printing – Print your wallet for a physical, offline storage solution.
+    Customizable Paper Templates – Choose from a variety of stylish wallet designs.
+    Secure Dart Angel Backend – Server-side wallet generation using the Angel framework for enhanced security.
+    Print-Ready Design – Easily print your wallet for secure, offline Bitcoin storage.
 
-Project Structure
+📁 Project Structure
 
-This project consists of two parts:
+This project includes two components:
 
-    Flutter Frontend: The main app interface for generating and customizing Bitcoin paper wallets. Repository link
-    Dart Angel Backend: A secure backend service for key generation, designed with the Dart Angel framework. Repository link
+    Flutter Frontend: The main app interface for generating and customizing Bitcoin paper wallets.
+    Frontend Repository
 
-Getting Started
+    Dart Angel Backend: A secure backend service built for key generation with the Dart Angel framework.
+    Backend Repository
+
+🚀 Getting Started
 Prerequisites
 
-    Flutter SDK – required to run the frontend.
-    Dart SDK – required for both the Flutter frontend and Angel backend.
-    Angel CLI – for managing and running the backend service.
+    Flutter SDK – Required to run the frontend.
+    Dart SDK – Required for both the frontend and backend.
+    Angel CLI – For managing and running the backend service.
 
 Installation
 1. Clone the Repositories
 
-Clone both the frontend and backend repositories:
+Clone the frontend repository:
 
 git clone https://github.com/TOMSLAUS/paper_wallet_generator.git
 cd paper_wallet_generator
@@ -48,28 +51,28 @@ dart pub get
 
 3. Run the Backend Service
 
-In the backend directory, start the server:
+In the backend directory, start the Angel server:
 
 angel serve
 
 Ensure the backend service is running locally or on a server accessible to the Flutter app.
 4. Run the Flutter App
 
-Return to the frontend directory and run the app on your preferred emulator or connected device:
+Return to the frontend directory and run the app on your preferred emulator or device:
 
 flutter run
 
-Usage
+🎉 Usage
 
-    Open the app and follow the instructions to generate a new Bitcoin wallet.
-    Customize the wallet template as desired.
+    Open the app and follow the prompts to generate a new Bitcoin wallet.
+    Customize your wallet with a preferred template design.
     Print your wallet for secure offline storage.
 
-    ⚠️ Important: Store the printed wallet securely, as the private key allows access to the Bitcoin funds.
+    ⚠️ Important: Store the printed wallet securely, as the private key provides full access to your Bitcoin funds.
 
-Contributing
+🤝 Contributing
 
-Contributions are welcome! Please feel free to submit pull requests for new templates, features, or improvements.
-License
+We welcome contributions! Please feel free to submit pull requests for new templates, features, or improvements.
+📜 License
 
 This project is licensed under the MIT License. See the LICENSE file for details.
